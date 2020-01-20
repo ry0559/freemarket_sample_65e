@@ -13,6 +13,7 @@
 | reset_password_token | string  |             |
 | name                 | string  |             |
 
+
 ### Association
 - has_one :user_detail
 - has_many :products
