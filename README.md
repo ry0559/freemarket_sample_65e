@@ -129,3 +129,5 @@
 | uid      | string  |         |
 ### Association
 - belongs_to :user
+
+<!-- フォークテスト -->
