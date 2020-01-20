@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
   before_action :set_categories, only: %w[create]
   
   def new
-    @parents = Category.all.order("id DESC").limit(13)
+    @parents = Category.all.order("id ASC").limit(13)
     @product = Product.new
     @prefecture = Prefecture.all
     @brand = Brand.all
