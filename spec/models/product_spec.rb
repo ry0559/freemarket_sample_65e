@@ -9,9 +9,5 @@ describe Product do
       product.valid?
       expect(product.errors[:image]).to include("can't be blank")
     end
-
-aaaaaaaaa
-
-
   end
 end

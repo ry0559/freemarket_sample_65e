@@ -28,7 +28,7 @@
                     %li.mypage-products-list
                       = link_to products_detail_path(p.id) do
                         %figure
-                          =image_tag i.image, size: "48x48", alt: "image"
+                          =image_tag i.image.url, size: "48x48", alt: "image"
                         .mypage-item-about
                           .mypage-item-text
                             = p.title
